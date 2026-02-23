@@ -78,7 +78,7 @@ You’ll need to provide:
 Once you've filled in the necessary fields, click **"Save"** to store and verify your setup.
 
 - If successful, your credential will show a "✓" icon. Now you can use this application for your integrations.
-- If it fails, you will be displayed a "!" icon. In that case, please recheck your API Key and Domain or contact support.
+- If it fails, you will be displayed a "!" icon. In that case, please recheck your Connection Name, Tenant ID, and Company ID or contact support.
 
 ---
 
