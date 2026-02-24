@@ -5,6 +5,7 @@ slug: /app-integrations/zoho-projects/
 ---
 Zoho Projects is a cloud-based project management software that helps teams plan, track, and collaborate on projects. It enables organizations to manage tasks, milestones, resources, and timesheets in a unified platform with powerful collaboration tools.
 
+---
 ### Key Features:
 - **Task Management**: Create, assign, and track tasks with dependencies and priorities.
 - **Gantt Charts**: Visualize project timelines and dependencies.
