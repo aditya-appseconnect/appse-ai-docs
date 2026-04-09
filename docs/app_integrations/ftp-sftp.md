@@ -91,17 +91,11 @@ Lists all files and folders in a specified remote directory.
 |------|------------|
 | Remote Path | Full remote directory path (e.g. `/uploads`, `/home/user/files`) |
 
-### Example Output
+### Example Input
+<img src="\img\credentials\ftp-sftp\ftp1.png"  width="700"/>
 
-```json
-{
-  "name": "string",
-  "full_path": "string",
-  "is_directory": true,
-  "size": 1234,
-  "modified_utc": "2024-01-01T12:00:00Z"
-}
-```
+### Example Output
+<img src="\img\credentials\ftp-sftp\ftp2.png"  width="700"/>
 
 ---
 
@@ -115,15 +109,11 @@ Creates a new directory at the specified remote path.
 |------|------------|
 | Remote Path | Full remote path where directory should be created |
 
-### Example Output
+### Example Input
+<img src="\img\credentials\ftp-sftp\ftp3.png"  width="700"/>
 
-```json
-{
-  "success": true,
-  "remote_path": "/uploads/reports/2024",
-  "message": "Directory created successfully"
-}
-```
+### Example Output
+<img src="\img\credentials\ftp-sftp\ftp4.png"  width="700"/>
 
 ---
 
@@ -138,16 +128,11 @@ Moves a folder from one location to another.
 | Source Path | Full path of the folder to move |
 | Destination Path | Full path where the folder should be moved |
 
-### Example Output
+### Example Input
+<img src="\img\credentials\ftp-sftp\ftp5.png"  width="700"/>
 
-```json
-{
-  "success": true,
-  "source_path": "/old/path",
-  "destination_path": "/new/path",
-  "message": "Folder moved successfully"
-}
-```
+### Example Output
+<img src="\img\credentials\ftp-sftp\ftp6.png"  width="700"/>
 
 ---
 
@@ -169,15 +154,11 @@ Downloads a file from the remote server.
 &nbsp;&nbsp;&nbsp;&nbsp;– **Binary files** (e.g., `.pdf`, `.jpg`, `.png`, `.jpeg`, `.xls`, `.xlsx`, `.doc`, `.docx`) → Returned as Base64-encoded string<br />
 • **Base64** → Forces the system to return file content as a Base64-encoded string regardless of file type 
 
-### Example Output
+### Example Input
+<img src="\img\credentials\ftp-sftp\ftp7.png"  width="700"/>
 
-```json
-{
-  "file_content": "string",
-  "file_name": "example.txt",
-  "size": 1024
-}
-```
+### Example Output
+<img src="\img\credentials\ftp-sftp\ftp8.png"  width="700"/>
 
 ---
 
@@ -193,15 +174,11 @@ Uploads a file to the remote server.
 | File Content | File content as Base64 encoded string |
 | Overwrite | True to replace an existing file |
 
-### Example Output
+### Example Input
+<img src="\img\credentials\ftp-sftp\ftp9.png"  width="700"/>
 
-```json
-{
-  "success": true,
-  "remote_path": "/uploads/file.txt",
-  "message": "File uploaded successfully"
-}
-```
+### Example Output
+<img src="\img\credentials\ftp-sftp\ftp10.png"  width="700"/>
 
 ---
 
@@ -217,16 +194,11 @@ Moves a file from one location to another.
 | Destination Path | Full destination path |
 | Overwrite | True to replace existing file |
 
-### Example Output
+### Example Input
+<img src="\img\credentials\ftp-sftp\ftp11.png"  width="700"/>
 
-```json
-{
-  "success": true,
-  "source_path": "/old/file.txt",
-  "destination_path": "/new/file.txt",
-  "message": "File moved successfully"
-}
-```
+### Example Output
+<img src="\img\credentials\ftp-sftp\ftp12.png"  width="700"/>
 
 ---
 
@@ -240,16 +212,11 @@ Retrieves metadata for a file or folder.
 |------|------------|
 | Remote Path | Full path of the file or folder |
 
-### Example Output
+### Example Input
+<img src="\img\credentials\ftp-sftp\ftp13.png"  width="700"/>
 
-```json
-{
-  "full_path": "/path/file.txt",
-  "size": 1024,
-  "modified_utc": "2024-01-01T12:00:00Z",
-  "permissions": "-rw-r--r--"
-}
-```
+### Example Output
+<img src="\img\credentials\ftp-sftp\ftp14.png"  width="700"/>
 
 ---
 
@@ -263,14 +230,11 @@ Checks if a file or folder exists at a given path.
 |------|------------|
 | Remote Path | Full path to check |
 
-### Example Output
+### Example Input
+<img src="\img\credentials\ftp-sftp\ftp15.png"  width="700"/>
 
-```json
-{
-  "exists": true,
-  "remote_path": "/path/file.txt"
-}
-```
+### Example Output
+<img src="\img\credentials\ftp-sftp\ftp16.png"  width="700"/>
 
 ---
 
@@ -284,14 +248,11 @@ Deletes a file or folder from the remote server.
 |------|------------|
 | Remote Path | Full path of file or folder to delete |
 
-### Example Output
+### Example Input
+<img src="\img\credentials\ftp-sftp\ftp17.png"  width="700"/>
 
-```json
-{
-  "success": true,
-  "message": "Deleted successfully"
-}
-```
+### Example Output
+<img src="\img\credentials\ftp-sftp\ftp18.png"  width="700"/>
 
 ---
 
