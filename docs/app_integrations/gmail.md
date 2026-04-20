@@ -68,7 +68,7 @@ All required fields must be configured correctly to successfully authorize Gmail
    Accept the Terms and Condition
    <img src="/img/credentials/gmail/gm1.png" width="700"/>
 2. Click on the **Select a project** (top-left)  
-   <img src="/img/credentials/gmail/gm02.png" width="700"/>
+   <img src="/img/credentials/gmail/gm2.png" width="700"/>
 3. Click **New Project**  
    <img src="/img/credentials/gmail/gm3.png" width="700"/>
 4. Enter:
@@ -85,9 +85,9 @@ All required fields must be configured correctly to successfully authorize Gmail
 ## Step 3: Navigate to APIs & Services section in Google Cloud Console
 
 1. In the Google Cloud Console header, click the **Google Cloud** text/logo (top-left).
-   <img src="\img\credentials\gmail\gm42.png" width="700"/>
+   <img src="\img\credentials\gmail\gm6.png" width="700"/>
 2. From the **Quick access** panel, click **APIs & Services**.
-   <img src="\img\credentials\gmail\gm8.png" width="700"/>
+   <img src="\img\credentials\gmail\gm7.png" width="700"/>
 3. You will now be on the **APIs & Services** dashboard.
 
 ---
@@ -97,21 +97,21 @@ All required fields must be configured correctly to successfully authorize Gmail
 ### Enable Gmail API
 
 1. Go to **[APIs & Services](#navigate-to-apis-services)** → **Enable APIs and services** 
-   <img src="/img/credentials/gmail/gm9.png" width="700"/>
+   <img src="/img/credentials/gmail/gm8.png" width="700"/>
 2. Search for **Gmail API**  
 3. Select **Gmail API**
-   <img src="/img/credentials/gmail/gm10.png" width="700"/>
+   <img src="/img/credentials/gmail/gm9.png" width="700"/>
 4. Click **Enable**  
-   <img src="/img/credentials/gmail/gm11.png" width="700"/>
+   <img src="/img/credentials/gmail/gm10.png" width="700"/>
 
 ---
 
 ## Step 5: Configure OAuth Consent Screen
 
 1. Go to **[APIs & Services](#navigate-to-apis-services) → OAuth consent screen**  
-   <img src="/img/credentials/gmail/gm12.png" width="700"/>
+   <img src="/img/credentials/gmail/gm11.png" width="700"/>
 2. Click **Get started**  
-   <img src="/img/credentials/gmail/gm13.png" width="700"/>
+   <img src="/img/credentials/gmail/gm12.png" width="700"/>
 
 ---
 
@@ -124,7 +124,7 @@ Fill in:
 
 - Click **Next**
 
-<img src="/img/credentials/gmail/gm14.png" width="700"/>
+<img src="/img/credentials/gmail/gm13.png" width="700"/>
 
 ---
 
@@ -145,7 +145,7 @@ Select **Internal** when:
 
 Click **Next**
 
-<img src="/img/credentials/gmail/gm15.png" width="700"/>
+<img src="/img/credentials/gmail/gm14.png" width="700"/>
 
 > Selecting External allows any Google account to authorize the Gmail integration.
 
@@ -156,7 +156,7 @@ Click **Next**
 - Enter **Contact email**
 - Click **Next**
 
-<img src="/img/credentials/gmail/gm16.png" width="700"/>
+<img src="/img/credentials/gmail/gm15.png" width="700"/>
 
 ---
 
@@ -165,10 +165,10 @@ Click **Next**
 - Accept **Google API Services: User Data Policy**  
 - Click **Continue**
 
-<img src="/img/credentials/gmail/gm17.png" width="700"/>
+<img src="/img/credentials/gmail/gm16.png" width="700"/>
 
 - Click on **Create**
-<img src="/img/credentials/gmail/gm18.png" width="700"/>
+<img src="/img/credentials/gmail/gm17.png" width="700"/>
 
 ---
 
@@ -176,13 +176,13 @@ Click **Next**
 
 1. Go to **[APIs & Services](#navigate-to-apis-services) → OAuth consent screen**  
 2. Open the **Audience** section  
-   <img src="/img/credentials/gmail/gm19.png" width="700"/>
+   <img src="/img/credentials/gmail/gm18.png" width="700"/>
 3. Under **Test users**, click **Add users**  
-   <img src="/img/credentials/gmail/gm20.png" width="700"/>
+   <img src="/img/credentials/gmail/gm19.png" width="700"/>
 4. Add Gmail addresses  
 5. Click **Save**
 
-<img src="/img/credentials/gmail/gm21.png" width="700"/>
+<img src="/img/credentials/gmail/gm20.png" width="700"/>
 
 > Only added users can authorize the credential.
 
@@ -192,57 +192,57 @@ Click **Next**
 
 1. Go to **[APIs & Services](#navigate-to-apis-services) → OAuth consent screen**  
 2. Open **Data Access**  
-   <img src="/img/credentials/gmail/gm22.png" width="700"/>
+   <img src="/img/credentials/gmail/gm21.png" width="700"/>
 3. Click **Add or remove scopes**  
-   <img src="/img/credentials/gmail/gm23.png" width="700"/>
+   <img src="/img/credentials/gmail/gm22.png" width="700"/>
 
 ### Search and Add the following scopes:
 
 - https://mail.google.com/ 
-   <img src="/img/credentials/gmail/gm24.png" width="700"/>
+   <img src="/img/credentials/gmail/gm23.png" width="700"/>
 
 - https://www.googleapis.com/auth/gmail.modify 
-   <img src="/img/credentials/gmail/gm25.png" width="700"/>
+   <img src="/img/credentials/gmail/gm24.png" width="700"/>
 
 - https://www.googleapis.com/auth/gmail.readonly 
-   <img src="/img/credentials/gmail/gm26.png" width="700"/>
+   <img src="/img/credentials/gmail/gm25.png" width="700"/>
 
 - https://www.googleapis.com/auth/gmail.send
-   <img src="/img/credentials/gmail/gm27.png" width="700"/>
+   <img src="/img/credentials/gmail/gm26.png" width="700"/>
 
 > **Note:** These scopes are required for reading, sending, and modifying emails.
 
 4. Click **Update**  
-   <img src="/img/credentials/gmail/gm28.png" width="700"/>
+   <img src="/img/credentials/gmail/gm27.png" width="700"/>
 
 5. Click **Save**
-   <img src="/img/credentials/gmail/gm29.png" width="700"/>
+   <img src="/img/credentials/gmail/gm28.png" width="700"/>
 
 ---
 
 ## Step 8: Create OAuth Client ID & Secret
 
 1. Go to **[APIs & Services](#navigate-to-apis-services) → Credentials**  
-   <img src="/img/credentials/gmail/gm30.png" width="700"/>
+   <img src="/img/credentials/gmail/gm29.png" width="700"/>
 2. Click **Create Credentials → OAuth client ID**  
-   <img src="/img/credentials/gmail/gm31.png" width="700"/>
+   <img src="/img/credentials/gmail/gm30.png" width="700"/>
 
 ### Application Type
 
 - Select **Web application**  
 - Add **Name**
 
-<img src="/img/credentials/gmail/gm32.png" width="700"/>
+<img src="/img/credentials/gmail/gm31.png" width="700"/>
 
 ### Authorized Redirect URI
 
 - Add the **Callback API URL**  
-- It must match exactly as displayed in the Gmail Credential page of APPSe AI portal 
+- It must exactly match the value displayed on the Gmail Credential page in the APPSe AI portal.
 
-<img src="/img/credentials/gmail/gm33.png" width="700"/>
+<img src="/img/credentials/gmail/gm32.png" width="700"/>
 
 3. Click **Create**
-   <img src="/img/credentials/gmail/gm34.png" width="700"/>
+   <img src="/img/credentials/gmail/gm33.png" width="700"/>
 
 ---
 
@@ -253,12 +253,12 @@ After creation, you will get:
 - **Client ID**
 - **Client Secret**
 
-<img src="/img/credentials/gmail/gm40.png" width="700"/>
+<img src="/img/credentials/gmail/gm34.png" width="700"/>
 
 - Copy and store them securely  
 - You can also download the JSON file  
 
-<img src="/img/credentials/gmail/gm39.png" width="700"/>
+<img src="/img/credentials/gmail/gm35.png" width="700"/>
 
 ---
 
@@ -271,19 +271,19 @@ After creation, you will get:
    - **Client Secret**
 3. Click **Save & Authorize**
 
-<img src="/img/credentials/gmail/client_credentials.png" width="700"/>
+<img src="/img/credentials/gmail/gm36.png" width="700"/>
 
 ---
 
 ## Step 11: Authorize Gmail Access
 
 1. Select your Gmail account  
-   <img src="/img/credentials/gmail/gm36.png" width="700"/>
-2. Click **Continue**  
    <img src="/img/credentials/gmail/gm37.png" width="700"/>
+2. Click **Continue**  
+   <img src="/img/credentials/gmail/gm38.png" width="700"/>
 3. Select the **Required Permission**  
 4. Click **Continue**  
-   <img src="/img/credentials/gmail/gm38.png" width="700"/>
+   <img src="/img/credentials/gmail/gm39.png" width="700"/>
 
 ---
 
@@ -291,7 +291,7 @@ After creation, you will get:
 
 - Ensure the credential shows **Successfully Validated**
 
-<img src="/img/credentials/gmail/gm41.png" width="700"/>
+<img src="/img/credentials/gmail/gm40.png" width="700"/>
 
 ---
 
