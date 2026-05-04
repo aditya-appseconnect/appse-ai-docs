@@ -78,7 +78,7 @@ Paste your token into the Integration Token field as shown:
 <img src="/img/credentials/notion/enter-your-integration-token.png" alt="appse ai Notion paste integration token into credential form" width="700"/>
 
 Once saved, your credential will appear as connected in appse ai:
-<img src="/img/credentials/notion/create-credential-notion-appseai.png" alt="appse ai Notion credential successfully created" width="700"/>
+<img src="/img/credentials/notion/create-credentials-notion-appseai.png" alt="appse ai Notion credential successfully created" width="700"/>
 
 :::info
  
