@@ -114,9 +114,9 @@ Select one of the following models:
 
 Select one of the following models:
 
-- Claude 4.5 Haiku  
-- Claude 4.6 Sonnet  
-- Claude 4.6 Opus  
+- Claude Haiku  4.5 
+- Claude Sonnet 4.6
+- Claude Opus 4.6 
 
 <img
   src="/img/platform/key-concepts/nodes/built-in/ai_processor_node/ai-processor-llm-claude-model.png"
