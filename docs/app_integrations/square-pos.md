@@ -1,5 +1,6 @@
 ---
 title: "Square POS"
+description: Step-by-step guide to set up Square POS credentials and automate sales, payments, and catalog workflows in appse ai
 slug: /app-integrations/square-pos/
 ---
 
@@ -94,7 +95,7 @@ Use this path when you need a new Square application for appse ai.
 
 <img src="/img/credentials/square-pos/SP09.png" alt="Choose audience" width="700"/>
 
-After the application created, continue with **Configure OAuth** below.
+After the application is created, continue with **Configure OAuth** below.
 
 </TabItem>
 </Tabs>
