@@ -1,6 +1,7 @@
 ---
 title: "Pipedrive"
 slug: /app-integrations/pipedrive/
+description: Step-by-step guide to connect Pipedrive to appse ai and automate sales workflows.
 ---
 
 Pipedrive is a sales CRM tool designed to help teams manage and close deals efficiently. With appse ai, you can connect your Pipedrive account, automate sales processes, and synchronize data between apps to optimize lead management, improve sales pipeline visibility, and enhance team productivity across your workflows.
@@ -37,16 +38,12 @@ You’ll be asked to fill in the following details:
 
 - Copy the **API token** provided under the "API" section.
 
-:::note
-
-**Example**
+:::tip Example
 API Token: `d5a1234e5678abcde9012345fghij6789klm0n`
-
 :::
-<br/>
 
 <img src="/img/credentials/pipedrive/pipedrive-cred-api-key.png" alt="Pipedrive Personal Preferences API section displaying the API token" width="700"/>
-<br/><br/>
+
 :::tip
 Treat your API key like a password. Do not share it publicly.
 :::
@@ -59,9 +56,9 @@ Treat your API key like a password. Do not share it publicly.
 - You will be able to see a field with your **Company Domain** in it.
   <img src="/img/credentials/pipedrive/pipedrive-cred-company-domain.png" alt="Pipedrive Company Settings page showing the Company Domain field" width="700"/>
 
-> **Example**:
->
-> - Domain: `nefariusinc`
+:::tip Example
+Domain: `nefariusinc`
+:::
 
 ### Save Your Credential
 
@@ -86,6 +83,8 @@ Here is the list of available triggers in Pipedrive:
 | **New Person Created**        | Retrieves events when a new contact (person) is added to Pipedrive, so you can trigger welcome emails or CRM sync actions immediately.         |
 | **Person Updated**            | Retrieves events when a contact's information is changed in Pipedrive, ensuring connected apps always have up-to-date contact records.         |
 | **New Lead Created**          | Retrieves events when a new lead is added in Pipedrive, allowing you to route or nurture leads automatically as soon as they enter the system. |
+
+---
 
 ## Actions
 
