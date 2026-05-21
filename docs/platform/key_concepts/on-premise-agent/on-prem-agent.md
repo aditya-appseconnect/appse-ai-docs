@@ -134,12 +134,12 @@ The ZIP package is downloaded to your local machine.
 - Right-click the ZIP package
 - Click **Extract All**
 
-<img src="/img/platform/key-concepts/on-premise-agent/extract-file.png" alt="Extract ZIP Package" width="700" height="400"/>
+<img src="/img/platform/key-concepts/on-premise-agent/extract.png" alt="Extract ZIP Package" width="700"/>
 
 - Choose the extraction location
 - Click **Extract**
 
-<img src="/img/platform/key-concepts/on-premise-agent/extract-file-to-destination.png" alt="Select Extraction Location" width="700" height="400"/>
+<img src="/img/platform/key-concepts/on-premise-agent/extract-file-to-destination.png" alt="Select Extraction Location" width="700"/>
 
 ---
 
