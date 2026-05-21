@@ -2377,7 +2377,9 @@ Click on the **Continue** button, then **Run** the node.
 
 **Create Service Call** action creates a new service request in the SAP with customer, item, and issue details. It helps in tracking service activities and managing support processes.
 
-**Note:** Mandatory fields must be provided to create a service call. Optional fields can be configured based on business requirements.
+:::note
+ Mandatory fields must be provided to create a service call. Optional fields can be configured based on business requirements.
+ :::
 
 ##### Select the Credential and Action Event
 <img src="/img/credentials/sap-b1/SAP-C-CSRVCCL121.jpg" width="700"  alt="SAP B1 Create Service Call step 1 of 7 screenshot" />
@@ -2469,8 +2471,9 @@ Click on the **Continue** button, then **Run** the node.
 
 **Update Service Call** action is used to modify an existing service request with updated customer, item, status, and resolution details. It helps in tracking progress, updating issue status, and maintaining service history.
 
-**Note:** Ensure valid status and priority values are selected based on business rules. Optional address fields can be updated if required.
-
+:::note
+Ensure valid status and priority values are selected based on business rules. Optional address fields can be updated if required.
+:::
 ##### Select the Credential and Action Event
 <img src="/img/credentials/sap-b1/SAP-C-USVCL130.jpg" width="700"  alt="SAP B1 Update Service Call step 1 of 8 screenshot" />
 
@@ -2554,7 +2557,9 @@ Click on the **Continue** button, then **Run** the node.
 
 **Create a New Sales Opportunity** action is used to record potential sales deals in the SAP. It helps track leads, monitor progress through different stages, and estimate revenue.
 
-**Note:** Sales Opportunity Lines are mandatory to track stages and progress of the opportunity. Optional fields can be configured based on business requirements.
+:::note
+Sales Opportunity Lines are mandatory to track stages and progress of the opportunity. Optional fields can be configured based on business requirements.
+:::
 
 ##### Select the Credential and Action Event
 <img src="/img/credentials/sap-b1/SAP-C-CNSOPPR141.jpg" width="700"  alt="SAP B1 Create a new Sales Opportunity step 1 of 8 screenshot" />
