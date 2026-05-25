@@ -87,7 +87,7 @@ Here is a recommended table for the required OAuth scopes:
 
 <img src="/img/credentials/big-commerce/bigcommerce-cred-access-token-4.png" alt="appse ai BigCommerce Access Token" width="700"/>
 
-You will now have your **Access Token** for use within the APPSe AI platform.
+You will now have your **Access Token** for use within the appse ai platform.
 
 ### Test Your Credential
 
@@ -111,7 +111,7 @@ Every application has a pre-defined set of triggers and actions that allow users
 
 #### New Customer Created
 
-**New Customer Created** trigger is activated whenever a new customer record is created in Shopify. It helps capture newly added customers for automation and workflow processing.
+**New Customer Created** trigger is activated whenever a new customer record is created in BigCommerce. It helps capture newly added customers for automation and workflow processing.
 
 ##### Select Credentials and Trigger Event
 
@@ -518,7 +518,7 @@ Click on **Continue**, then **Run** node
 
 #### Create a New Customer
 
-**Create a New Customer** action is used to create a customer record in Shopify with contact details, company information, tax settings, and address details.
+**Create a New Customer** action is used to create a customer record in BigCommerce with contact details, company information, tax settings, and address details.
 
 ##### Select Credentials and Action Events
 
@@ -627,7 +627,7 @@ Click on **Continue**, then **Run** node
 
 #### Update an Existing Customer
 
-**Update an Existing Customer** action is used to modify an existing customer record in Shopify with updated contact details, company information, and tax settings.
+**Update an Existing Customer** action is used to modify an existing customer record in BigCommerce with updated contact details, company information, and tax settings.
 
 ##### Select Credentials and Action Events
 <img src="/img/credentials/big-commerce/C-UPDTCUSTMR15.jpg" alt="BigCommerce Update an Existing Customer action — Select Credentials and Action Event" width="700" />
@@ -707,7 +707,7 @@ Click on **Continue**, then **Run** node.
 
 #### Get Customer Addresses by Customer Id
 
-**Get Customer Addresses by Customer Id** action is used to retrieve all saved addresses associated with an existing customer in Shopify.
+**Get Customer Addresses by Customer Id** action is used to retrieve all saved addresses associated with an existing customer in BigCommerce.
 
 ##### Select Credentials and Action Events
 <img src="/img/credentials/big-commerce/C-GTCUSTMRADDRSbyCUSTMRID18.jpg" alt="BigCommerce Get Customer Addresses by Customer ID action — Select Credentials and Action Event" width="700" />
@@ -766,7 +766,7 @@ Click on **Continue**, then **Run** node.
 
 #### Get Customers by Email
 
-**Get Customers by Email** action is used to retrieve customer details in Shopify using the customer's email address.
+**Get Customers by Email** action is used to retrieve customer details in BigCommerce using the customer's email address.
 
 ##### Select Credentials and Action Events
 <img src="/img/credentials/big-commerce/C-GTCUSTMRbyEML20.jpg" alt="BigCommerce Get Customers by Email action — Select Credentials and Action Event" width="700" />
@@ -829,7 +829,7 @@ Click on **Continue**, then **Run** node.
 
 #### Get Customer Addresses
 
-**Get Customer Addresses** action is used to retrieve all saved addresses associated with an existing customer in Shopify.
+**Get Customer Addresses** action is used to retrieve all saved addresses associated with an existing customer in BigCommerce.
 
 ##### Select Credentials and Action Events
 <img src="/img/credentials/big-commerce/C-GTCUSTMRADDRSbyCUSTMRID18.jpg" alt="BigCommerce Get Customer Addresses action — Select Credentials and Action Event" width="700" />
@@ -899,7 +899,7 @@ Click on **Continue**, then **Run** node.
 
 #### Update Customer Addresses
 
-**Update Customer Addresses** action is used to modify an existing customer address in Shopify with updated contact and location details.
+**Update Customer Addresses** action is used to modify an existing customer address in BigCommerce with updated contact and location details.
 
 ##### Select Credentials and Action Events
 <img src="/img/credentials/big-commerce/C-UPDTADRES24.jpg" alt="BigCommerce Update Customer Addresses action — Select Credentials and Action Event" width="700" />
@@ -972,7 +972,7 @@ Click on **Continue**, then **Run** node.
 
 #### Create a New Product
 
-**Create a New Product** action is used to create a new product in Shopify with pricing, dimensions, inventory, and visibility settings.
+**Create a New Product** action is used to create a new product in BigCommerce with pricing, dimensions, inventory, and visibility settings.
 
 ##### Select Credentials and Action Events
 <img src="/img/credentials/big-commerce/C-CRTPRDT27.jpg" alt="BigCommerce Create a New Product action — Select Credentials and Action Event" width="700" />
@@ -1146,7 +1146,7 @@ Click on **Continue**, then **Run** node.
 
 #### Update Product
 
-**Update Product** action is used to modify an existing product in Shopify with updated product details, pricing, dimensions, and feature settings.
+**Update Product** action is used to modify an existing product in BigCommerce with updated product details, pricing, dimensions, and feature settings.
 
 ##### Select Credentials and Action Events
 <img src="/img/credentials/big-commerce/C-UPDTPRDT30.jpg" alt="BigCommerce Update Product action — Select Credentials and Action Event" width="700" />
@@ -1279,7 +1279,7 @@ Click on **Continue**, then **Run** node.
 
 #### Update Inventory Level
 
-**Update Inventory Level** action is used to modify the available inventory quantity for an existing product in Shopify.
+**Update Inventory Level** action is used to modify the available inventory quantity for an existing product in BigCommerce.
 
 ##### Select Credentials and Action Events
 <img src="/img/credentials/big-commerce/C-UPDTINVNTRYLVL33.jpg" alt="BigCommerce Update Inventory Level action — Select Credentials and Action Event" width="700" />
@@ -1401,7 +1401,7 @@ Click on **Continue**, then **Run** node.
 
 #### Get Product by SKU
 
-**Get Product by SKU** action is used to retrieve product details in Shopify using the product SKU (Stock Keeping Unit).
+**Get Product by SKU** action is used to retrieve product details in BigCommerce using the product SKU (Stock Keeping Unit).
 
 ##### Select Credentials and Action Events
 <img src="/img/credentials/big-commerce/C-GTPRDTbySKU35.jpg" alt="BigCommerce Get Product by SKU action — Select Credentials and Action Event" width="700" />
@@ -1519,7 +1519,7 @@ Click on **Continue**, then **Run** node.
 
 #### Get Order by ID
 
-**Get Order by ID** action is used to retrieve order details in Shopify using the unique order identifier.
+**Get Order by ID** action is used to retrieve order details in BigCommerce using the unique order identifier.
 
 ##### Select Credentials and Action Events
 <img src="/img/credentials/big-commerce/C-GTORDbyORDRID37.jpg" alt="BigCommerce Get Order by ID action — Select Credentials and Action Event" width="700" />
@@ -1665,7 +1665,7 @@ Click on **Continue**, then **Run** node.
 
 #### Update Order
 
-**Update Order** action is used to modify an existing order in Shopify with updated status, customer, payment, and message details.
+**Update Order** action is used to modify an existing order in BigCommerce with updated status, customer, payment, and message details.
 
 ##### Select Credentials and Action Events
 <img src="/img/credentials/big-commerce/C-UPDTORD39.jpg" alt="BigCommerce Update Order action — Select Credentials and Action Event" width="700" />
@@ -1817,7 +1817,7 @@ Click on **Continue**, then **Run** node.
 
 #### Get Order Products
 
-**Get Order Products** action is used to retrieve all products associated with a specific order in Shopify.
+**Get Order Products** action is used to retrieve all products associated with a specific order in BigCommerce.
 
 ##### Select Credentials and Action Events
 <img src="/img/credentials/big-commerce/C-GTORDRPRDTbyORDRId41.jpg" alt="BigCommerce Get Order Products action — Select Credentials and Action Event" width="700" />
@@ -1930,7 +1930,7 @@ Click on **Continue**, then **Run** node.
 
 #### Get Order Shipping Addresses
 
-**Get Order Shipping Addresses** action is used to retrieve shipping address details associated with a specific order in Shopify.
+**Get Order Shipping Addresses** action is used to retrieve shipping address details associated with a specific order in BigCommerce.
 
 ##### Select Credentials and Action Events
 <img src="/img/credentials/big-commerce/C-GTADDRSbyORDRID43.jpg" alt="BigCommerce Get Order Shipping Addresses action — Select Credentials and Action Event" width="700" />
@@ -2012,7 +2012,7 @@ Click on **Continue**, then **Run** node.
 
 #### Create Order Fulfillment
 
-**Create Order Fulfillment** action is used to create a fulfillment for an existing order in Shopify with item quantities, tracking, shipping, and delivery details.
+**Create Order Fulfillment** action is used to create a fulfillment for an existing order in BigCommerce with item quantities, tracking, shipping, and delivery details.
 
 ##### Select Credentials and Action Events
 <img src="/img/credentials/big-commerce/C-CRTORDFUFLMNT45.jpg" alt="BigCommerce Create Order Fulfillment action — Select Credentials and Action Event" width="700" />
