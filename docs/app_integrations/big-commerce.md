@@ -39,7 +39,7 @@ The following fields are required to authenticate your BigCommerce account:
 
 #### 2. Generate Your Access Token
 
-- Navigate to **Settings** â†’ **Store-level API accounts** â†’ Click **Create API Account**.
+- Navigate to **Settings** -> **Store-level API accounts** -> Click **Create API Account**.
 
 <img src="/img/credentials/big-commerce/bigcommerce-cred-access-token-1.png" alt="appse ai BigCommerce Store Level API Accounts" width="700"/>
 
@@ -83,7 +83,7 @@ Here is a recommended table for the required OAuth scopes:
 
 <img src="/img/credentials/big-commerce/bigcommerce-cred-access-token-3.png" alt="appse ai BigCommerce Save API" width="700"/>
 
-- Copy and securely store the **Access Token** â€” it will not be shown again.
+- Copy and securely store the **Access Token** — it will not be shown again.
 
 <img src="/img/credentials/big-commerce/bigcommerce-cred-access-token-4.png" alt="appse ai BigCommerce Access Token" width="700"/>
 
@@ -533,15 +533,15 @@ Click on **Continue** button
 | Field | Description |
 |------|-------------|
 | Email | Enter the customer email address. (e.g., "charlie.alisa@yopmail.com") |
-| Optional Fields
-First Name | Customer's first name. (e.g., "Charlie") |
+| Optional Fields | Additional customer fields that can be configured. |
+| First Name | Customer's first name. (e.g., "Charlie") |
 | Last Name | Customer's last name. (e.g., "Alisa") |
 | Company | Company name. (e.g., "Info Tech") |
 | Phone | Customer phone number. (e.g., "8987656787") |
 | Notes | Additional notes about the customer. (e.g., "Business to Customers") |
 | Tax Exempt Category | Tax exemption category. (e.g., "wholesale") |
-| Addresses
-First Name | Recipient first name. (e.g., "Mehatha") |
+| Addresses | Additional address fields that can be configured. |
+| First Name | Recipient first name. (e.g., "Mehatha") |
 | Last Name | Recipient last name. (e.g., "Ben") |
 | Company | Company name for address. (e.g., "Info Tech") |
 | Address Line 1 | Primary street address. (e.g., "Trench Colony") |
@@ -761,8 +761,6 @@ Click on **Continue**, then **Run** node.
 </div>
 
 ----------------------------
-
-### Customer Action
 
 #### Get Customers by Email
 
