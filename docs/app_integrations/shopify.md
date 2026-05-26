@@ -1,13 +1,13 @@
 ---
 title: "Shopify"
 slug: /app-integrations/shopify/
-description: Step-by-step guide to set up Shopify credentials and automate e-commerce workflows in APPSeAI.
+description: Step-by-Step guide to set up Shopify credentials and automate e-commerce workflows in appse ai.
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Shopify is a powerful e-commerce platform that enables businesses to build, customize, and manage their online stores with ease. With APPSeAI, you can connect your Shopify account to automate key operations such as order management, customer data synchronization, and product updates. This integration helps streamline your e-commerce workflows, reduce manual effort, and ensure that your online store runs efficiently across all connected systems.
+Shopify is a powerful e-commerce platform that enables businesses to build, customize, and manage their online stores with ease. With appse ai, you can connect your Shopify account to automate key operations such as order management, customer data synchronization, and product updates. This integration helps streamline your e-commerce workflows, reduce manual effort, and ensure that your online store runs efficiently across all connected systems.
 
 ---
 
@@ -21,39 +21,39 @@ You'll be asked to fill in the following details:
 
 | Field       | Description                                  |
 |-------------|----------------------------------------------|
-| Connection name   | A name to help you identify this connection.  |
+| Connection name   | A name to help you identify this connection. |
 | Store Subdomain        | Your Shopify store ID |
-| Admin API Access Token    | Create a custom app in order to obtain this.  |
+| Admin API Access Token    | Create a custom app in order to obtain this. |
 
-First things first - Log in to your [Shopify account](https://accounts.shopify.com/select?rid=539d146c-195f-4011-97ab-fe776d9c0e58). Then follow the Step-by-step guide.
+First things first - Log in to your [Shopify account](https://accounts.shopify.com/select?rid=539d146c-195f-4011-97ab-fe776d9c0e58). Then follow the Step-by-Step guide.
 
 ### Step-by-Step Guide to Create a Shopify Custom App
 
-<img src="/img/credentials/shopify/SettingIMG.jpg" alt="APPSeAI Shopify settings" width="700"/>
+<img src="/img/credentials/shopify/SettingIMG.jpg" alt="appse ai Shopify settings" width="700"/>
 
 From the Shopify Admin home page, click **Settings** in the bottom-left corner of the sidebar.
 
 1. In the Settings sidebar, scroll down and click **Apps**.
 
-<img src="/img/credentials/shopify/NavigatetoAPPs.jpg" alt="APPSeAI Shopify navigate to apps" width="700"/>
+<img src="/img/credentials/shopify/NavigatetoAPPs.jpg" alt="appse ai Shopify navigate to apps" width="700"/>
 
 ---
 
 2. On the Apps page, click the **Develop apps** button in the top-right corner.
 
-<img src="/img/credentials/shopify/DevelopAPP.jpg" alt="APPSeAI Shopify develop apps" width="700"/>
+<img src="/img/credentials/shopify/DevelopAPP.jpg" alt="appse ai Shopify develop apps" width="700"/>
 
 ---
 
 3. On the App Development page, scroll down to the **Legacy custom apps** section and click **Create an app**.
 
-<img src="/img/credentials/shopify/CreateAPP.jpg" alt="APPSeAI Shopify create app" width="700"/>
+<img src="/img/credentials/shopify/CreateAPP.jpg" alt="appse ai Shopify create app" width="700"/>
 
 ---
 
 4. In the **Create an app** dialog, enter the **App name**, Enter or select the **App developer email** from the dropdown, and click **Create app** to generate the custom Shopify app.
 
-<img src="/img/credentials/shopify/APPNM&MAILSLCT.jpg" alt="APPSeAI Shopify app details" width="700"/>
+<img src="/img/credentials/shopify/APPNM&MAILSLCT.jpg" alt="appse ai Shopify app details" width="700"/>
 
 ---
 
@@ -65,7 +65,7 @@ From the Shopify Admin home page, click **Settings** in the bottom-left corner o
 
 6. On the **Admin API Integration Configuration** page, enable the following Admin API access scopes by selecting each checkbox:
 
-   `read_all_orders` `read_customers` `write_customers` `read_fulfillments` `write_fulfillments` `read_inventory` `write_inventory` `read_locations` `write_locations` `read_orders` `write_orders` `read_products` `write_products` `read_publications` `write_publications` `read_discounts` `write_discounts` `read_shipping` `write_shipping`
+   `read_customers` `write_customers` `read_fulfillments` `write_fulfillments` `read_inventory` `write_inventory` `read_locations` `write_locations` `read_orders` `write_orders` `read_products` `write_products` `read_publications` `write_publications` `read_discounts` `write_discounts` `read_shipping` `write_shipping`
 
 7. Once all scopes are selected, click **Save** in the top-right corner.
 
@@ -79,20 +79,30 @@ From the Shopify Admin home page, click **Settings** in the bottom-left corner o
 
 ---
 
-9. Navigate to the **API Credentials** tab. Under **Admin API Access Token**, click **Reveal token once**, then copy and securely save the token in a safe location immediately for future API access.
+9. After clicking **Install app**, a confirmation popup will appear. Click **Install** to complete the app installation.
 
-> **Important:** The Admin API Access Token is shown **only once**. If you lose it, you will need to uninstall and reinstall the app to generate a new token.
+<img src="/img/credentials/shopify/APPInstallPopUp.jpg" alt="Install App Popup" width="700"/>
+
+10. click **Reveal token once**, then immediately copy and store it securely — it will not be shown again.
+
+:::note
+The Admin API Access Token is shown **only once**. If you lose it, you will need to uninstall and reinstall the app to generate a new token.
+:::
 
 <img src="/img/credentials/shopify/APITOKENREVEAL.jpg" alt="API Token Reveal" width="700"/>
 
 ---
 
 
-### Add the fields to APPSeAI
+### Add the fields to appse ai
+
+1. Navigate to [appse ai](https://workflow.appse.ai/)
+
+2. Go to **Credentials** → **Select App** → **Add Credentials**
 
 <img src="/img/credentials/shopify/Configuration.jpg" alt="Shopify credential configuration fields" width="700" />
 
-Add Store Subdomain and Admin API access token in APPSeAI. Then click the "Save" button.
+Add Store Subdomain and Admin API access token in appse ai. Then click the "Save" button.
 
 If you followed all the steps correctly, your credential should be connected.
 
@@ -102,7 +112,7 @@ Once you've filled in the necessary fields, click `Save` to store and verify you
 
 If successful, your Shopify credential will show a "✓" icon. Now you can use this application for your integrations.
 
-If it fails, you will be displayed a "!" icon. In that case, please recheck your Store Subdomain and Admin API Access Token or contact support.
+If it fails, a "!" icon will be displayed. In that case, please recheck your Store Subdomain and Admin API Access Token or contact support.
 
 ---
 
@@ -130,7 +140,7 @@ Every application has a pre-defined set of triggers and actions that allow users
 
 #### New Company Created
 
-New Company Created trigger is activated whenever a new company is created in the Shopify. It helps capture newly added company records for automation and workflow processing.
+New Company Created trigger is activated whenever a new company is created in Shopify. It helps capture newly added company records for automation and workflow processing.
 
 ##### Select Credentials and Action Events
 
@@ -144,10 +154,10 @@ Click on **Continue** button
 
 | Field          | Description |
 |---------------|------------|
-| Fetch data since | Select the date and time to fetch newly created items from that point onward . (e.g., 27/03/2026 06:51) |
+| Fetch data since | Select the date and time to fetch newly created items from that point onward. (e.g., 27/03/2026 06:51) |
 | Limit | Set the maximum number of items to retrieve per run. (e.g., 10) |
 
-Click on **Continue** , then **Run** the node.
+Click on **Continue**, then **Run** the node.
 
 ---------
 
@@ -292,7 +302,7 @@ Click on **Continue** , then **Run** the node.
 
 #### New Customer Created
 
-New Customer Created trigger is activated whenever a new customer is created in the Shopify. It helps capture newly added customer records for automation and workflow processing.
+New Customer Created trigger is activated whenever a new customer is created in Shopify. It helps capture newly added customer records for automation and workflow processing.
 
 ##### Select Credentials and Action Events
 
@@ -306,16 +316,18 @@ Click on **Continue** button
 
 | Field          | Description |
 |---------------|------------|
-| Fetch data since | Select the date and time to fetch newly created items from that point onward . (e.g., 27/03/2026 06:51) |
+| Fetch data since | Select the date and time to fetch newly created items from that point onward. (e.g., 27/03/2026 06:51) |
 | Limit | Set the maximum number of items to retrieve per run. (e.g., 10) |
 
-Click on **Continue** , then **Run** the node.
+Click on **Continue**, then **Run** the node.
 
 ---------
 
 ##### Example Configuration
 
-> **Note:** The configuration fields are the same for all triggers — refer to the screenshot above.
+:::note
+The configuration fields are the same for all triggers — refer to the screenshot above.
+:::
 
 --------------
 
@@ -389,7 +401,7 @@ Click on **Continue** , then **Run** the node.
 
 #### Customer Updated
 
-Customer Updated trigger is activated whenever a customer is updated in the Shopify. It helps capture modified customer records for automation and workflow processing.
+Customer Updated trigger is activated whenever a customer is updated in Shopify. It helps capture modified customer records for automation and workflow processing.
 
 ##### Select Credentials and Action Events
 
@@ -403,16 +415,18 @@ Click on **Continue** button
 
 | Field          | Description |
 |---------------|------------|
-| Fetch data since | Select the date and time to fetch updated items from that point onward . (e.g., 27/03/2026 06:51) |
+| Fetch data since | Select the date and time to fetch updated items from that point onward. (e.g., 27/03/2026 06:51) |
 | Limit | Set the maximum number of items to retrieve per run. (e.g., 10) |
 
-Click on **Continue** , then **Run** the node.
+Click on **Continue**, then **Run** the node.
 
 ---------
 
 ##### Example Configuration
 
-> **Note:** The configuration fields are the same for all triggers — refer to the screenshot above.
+:::note
+The configuration fields are the same for all triggers — refer to the screenshot above.
+:::
 
 --------------
 
@@ -487,7 +501,7 @@ Click on **Continue** , then **Run** the node.
 
 #### New Company Location Created
 
-New Company Location Created trigger is activated whenever a new company location is created in the Shopify. It helps capture newly added company location records for automation and workflow processing.
+New Company Location Created trigger is activated whenever a new company location is created in Shopify. It helps capture newly added company location records for automation and workflow processing.
 
 ##### Select Credentials and Action Events
 
@@ -501,16 +515,18 @@ Click on **Continue** button
 
 | Field          | Description |
 |---------------|------------|
-| Fetch data since | Select the date and time to fetch newly created items from that point onward . (e.g., 27/03/2026 06:51) |
+| Fetch data since | Select the date and time to fetch newly created items from that point onward. (e.g., 27/03/2026 06:51) |
 | Limit | Set the maximum number of items to retrieve per run. (e.g., 10) |
 
-Click on **Continue** , then **Run** the node.
+Click on **Continue**, then **Run** the node.
 
 ---------
 
 ##### Example Configuration
 
-> **Note:** The configuration fields are the same for all triggers — refer to the screenshot above.
+:::note
+The configuration fields are the same for all triggers — refer to the screenshot above.
+:::
 
 --------------
 
@@ -588,7 +604,7 @@ Click on **Continue** , then **Run** the node.
 
 #### New Product Created
 
-New Product Created trigger is activated whenever a new product is created in the Shopify. It helps capture newly added product records for automation and workflow processing.
+New Product Created trigger is activated whenever a new product is created in Shopify. It helps capture newly added product records for automation and workflow processing.
 
 ##### Select Credentials and Action Events
 
@@ -602,16 +618,18 @@ Click on **Continue** button
 
 | Field          | Description |
 |---------------|------------|
-| Fetch data since | Select the date and time to fetch newly created items from that point onward . (e.g., 27/03/2026 06:51) |
+| Fetch data since | Select the date and time to fetch newly created items from that point onward. (e.g., 27/03/2026 06:51) |
 | Limit | Set the maximum number of items to retrieve per run. (e.g., 10) |
 
-Click on **Continue** , then **Run** the node.
+Click on **Continue**, then **Run** the node.
 
 ------------------
 
 ##### Example Configuration
 
-> **Note:** The configuration fields are the same for all triggers — refer to the screenshot above.
+:::note
+The configuration fields are the same for all triggers — refer to the screenshot above.
+:::
 
 --------------
 
@@ -696,7 +714,7 @@ Click on **Continue** , then **Run** the node.
 
 #### Products Updated
 
-Products Updated trigger is activated whenever a product is updated in the Shopify. It helps capture modified product records for automation and workflow processing.
+Products Updated trigger is activated whenever a product is updated in Shopify. It helps capture modified product records for automation and workflow processing.
 
 ##### Select Credentials and Action Events
 
@@ -710,16 +728,18 @@ Click on **Continue** button
 
 | Field          | Description |
 |---------------|------------|
-| Fetch data since | Select the date and time to fetch updated items from that point onward . (e.g., 27/03/2026 06:51) |
+| Fetch data since | Select the date and time to fetch updated items from that point onward. (e.g., 27/03/2026 06:51) |
 | Limit | Set the maximum number of items to retrieve per run. (e.g., 10) |
 
-Click on **Continue** , then **Run** the node.
+Click on **Continue**, then **Run** the node.
 
 ---------------------
 
 ##### Example Configuration
 
-> **Note:** The configuration fields are the same for all triggers — refer to the screenshot above.
+:::note
+The configuration fields are the same for all triggers — refer to the screenshot above.
+:::
 
 ------------------------
 
@@ -804,7 +824,7 @@ Click on **Continue** , then **Run** the node.
 
 #### New Order Created
 
-New Order Created trigger is activated whenever a new order is created in the Shopify. It helps capture newly added order records for automation and workflow processing.
+New Order Created trigger is activated whenever a new order is created in Shopify. It helps capture newly added order records for automation and workflow processing.
 
 ##### Select Credentials and Action Events
 
@@ -818,16 +838,18 @@ Click on **Continue** button
 
 | Field          | Description |
 |---------------|------------|
-| Fetch data since | Select the date and time to fetch newly created items from that point onward . (e.g., 27/03/2026 06:51) |
+| Fetch data since | Select the date and time to fetch newly created items from that point onward. (e.g., 27/03/2026 06:51) |
 | Limit | Set the maximum number of items to retrieve per run. (e.g., 10) |
 
-Click on **Continue** , then **Run** the node.
+Click on **Continue**, then **Run** the node.
 
 ---------
 
 ##### Example Configuration
 
-> **Note:** The configuration fields are the same for all triggers — refer to the screenshot above.
+:::note
+The configuration fields are the same for all triggers — refer to the screenshot above.
+:::
 
 --------------
 
@@ -1004,7 +1026,7 @@ Click on **Continue** , then **Run** the node.
 
 #### Orders Cancelled
 
-Orders Cancelled trigger is activated whenever an order is cancelled in the Shopify. It helps capture cancelled order records for automation and workflow processing.
+Orders Cancelled trigger is activated whenever an order is cancelled in Shopify. It helps capture cancelled order records for automation and workflow processing.
 
 ##### Select Credentials and Action Events
 
@@ -1018,16 +1040,18 @@ Click on **Continue** button
 
 | Field          | Description |
 |---------------|------------|
-| Fetch data since | Select the date and time to fetch cancelled items from that point onward . (e.g., 27/03/2026 06:51) |
+| Fetch data since | Select the date and time to fetch cancelled items from that point onward. (e.g., 27/03/2026 06:51) |
 | Limit | Set the maximum number of items to retrieve per run. (e.g., 10) |
 
-Click on **Continue** , then **Run** the node.
+Click on **Continue**, then **Run** the node.
 
 ------------------------
 
 ##### Example Configuration
 
-> **Note:** The configuration fields are the same for all triggers — refer to the screenshot above.
+:::note
+The configuration fields are the same for all triggers — refer to the screenshot above.
+:::
 
 --------------
 
@@ -1234,7 +1258,7 @@ Click on **Continue** , then **Run** the node.
 
 #### New Refund Created
 
-New Refund Created trigger is activated whenever a new refund is created in the Shopify. It helps capture newly created refund records for automation and workflow processing.
+New Refund Created trigger is activated whenever a new refund is created in Shopify. It helps capture newly created refund records for automation and workflow processing.
 
 ##### Select Credentials and Action Events
 
@@ -1248,16 +1272,18 @@ Click on **Continue** button
 
 | Field          | Description |
 |---------------|------------|
-| Fetch data since | Select the date and time to fetch newly created refunds from that point onward . (e.g., 27/03/2026 06:51) |
+| Fetch data since | Select the date and time to fetch newly created refunds from that point onward. (e.g., 27/03/2026 06:51) |
 | Limit | Set the maximum number of items to retrieve per run. (e.g., 10) |
 
-Click on **Continue** , then **Run** the node.
+Click on **Continue**, then **Run** the node.
 
 ---------
 
 ##### Example Configuration
 
-> **Note:** The configuration fields are the same for all triggers — refer to the screenshot above.
+:::note
+The configuration fields are the same for all triggers — refer to the screenshot above.
+:::
 
 --------------
 
@@ -1484,7 +1510,7 @@ Click on **Continue** , then **Run** the node.
 
 #### New Return Created
 
-New Return Created trigger is activated whenever a new return is created in the Shopify. It helps capture newly created return records for automation and workflow processing.
+New Return Created trigger is activated whenever a new return is created in Shopify. It helps capture newly created return records for automation and workflow processing.
 
 ##### Select Credentials and Action Events
 
@@ -1498,16 +1524,18 @@ Click on **Continue** button
 
 | Field          | Description |
 |---------------|------------|
-| Fetch data since | Select the date and time to fetch newly created returns from that point onward . (e.g., 27/03/2026 06:51) |
+| Fetch data since | Select the date and time to fetch newly created returns from that point onward. (e.g., 27/03/2026 06:51) |
 | Limit | Set the maximum number of items to retrieve per run. (e.g., 10) |
 
-Click on **Continue** , then **Run** the node.
+Click on **Continue**, then **Run** the node.
 
 ---------------------
 
 ##### Example Configuration
 
-> **Note:** The configuration fields are the same for all triggers — refer to the screenshot above.
+:::note
+The configuration fields are the same for all triggers — refer to the screenshot above.
+:::
 
 --------------
 
@@ -1758,7 +1786,7 @@ Click on **Continue** , then **Run** the node.
 
 #### New Abandoned Checkout
 
-New Abandoned Checkout trigger is activated whenever a new abandoned checkout is created in the Shopify. It helps capture newly created abandoned checkout records for automation and workflow processing.
+New Abandoned Checkout trigger is activated whenever a new abandoned checkout is created in Shopify. It helps capture newly created abandoned checkout records for automation and workflow processing.
 
 ##### Select Credentials and Action Events
 
@@ -1772,16 +1800,18 @@ Click on **Continue** button
 
 | Field          | Description |
 |---------------|------------|
-| Fetch data since | Select the date and time to fetch newly abandoned checkouts from that point onward . (e.g., 27/03/2026 06:51) |
+| Fetch data since | Select the date and time to fetch newly abandoned checkouts from that point onward. (e.g., 27/03/2026 06:51) |
 | Limit | Set the maximum number of items to retrieve per run. (e.g., 10) |
 
-Click on **Continue** , then **Run** the node.
+Click on **Continue**, then **Run** the node.
 
 ---------------------
 
 ##### Example Configuration
 
-> **Note:** The configuration fields are the same for all triggers — refer to the screenshot above.
+:::note
+The configuration fields are the same for all triggers — refer to the screenshot above.
+:::
 
 --------------
 
@@ -1831,11 +1861,11 @@ Click on **Continue** , then **Run** the node.
 
 ## Actions
 
-### Customer Action
+### Customer Actions
 
 #### Get Customer by Email
 
-Get Customer by Email action retrieves customer (business partner) details using the email address. It helps in quickly identifying customer records based on contact information.
+Get Customer by Email action retrieves customer details using the email address. using the email address. It helps in quickly identifying customer records based on contact information.
 
 ##### Select Credentials and Action Events
 
@@ -1851,9 +1881,11 @@ Click on **Continue** button
 |------|-------------|
 | Email | Enter the customer email address. (e.g., "john.doe@example.com") |
 
-> **Note:** If no customer is found with the provided email, the response will be empty or null. If multiple records exist, the system may return one or a list based on configuration.
+:::note
+If no customer is found with the provided email, the response will be empty or null. If multiple records exist, the system may return one or a list based on configuration.
+:::
 
-Click on **Continue**, then **Run** node
+Click on **Continue**, then click **Run** node.
 
 -----------------
 
@@ -1962,9 +1994,11 @@ First Name | First name for the address. (e.g., "Marie") |
 | City | City name. (e.g., "Hyderabad") |
 | Phone | Contact number for the address. (e.g., "8767876567") |
 
-> **Note:** Only the fields provided will be updated. Ensure the correct Customer Id is used to avoid modifying the wrong record.
+:::note
+Only the fields provided will be updated. Ensure the correct Customer Id is used to avoid modifying the wrong record.
+:::
 
-Click on **Continue**, then **Run** node
+Click on **Continue**, then click **Run** node.
 
 -------------------
 
@@ -2083,9 +2117,11 @@ First Name | First name for the address. (e.g., "Merie") |
 | City | City name. (e.g., "Hyderabad") |
 | Phone | Contact number for the address. (e.g., "76546787656") |
 
-> **Note:** Email is mandatory for creating a customer. Other fields are optional and can be configured based on requirements.
+:::note
+Email is required for creating a customer. Other fields are optional and can be configured based on requirements.
+:::
 
-Click on **Continue**, then **Run** node
+Click on **Continue**, then click **Run** node.
 
 -------------------
 
@@ -2154,7 +2190,7 @@ Click on **Continue**, then **Run** node
 ```
 ---------------
 
-### Companies Action
+### Companies Actions
 
 #### Create Company
 
@@ -2174,9 +2210,11 @@ Click on **Continue** button
 |------|-------------|
 | Company Name | Enter the name of the company. (e.g., "Libas Store") |
 
-> **Note:** Company Name is mandatory. Additional details can be added later by updating the company record.
+:::note
+Company Name is required. Additional details can be added later by updating the company record.
+:::
 
-Click on **Continue**, then **Run** node
+Click on **Continue**, then click **Run** node.
 
 -----------------
 
@@ -2217,7 +2255,7 @@ Click on **Continue**, then **Run** node
 
 Create Company Location action is used to add a new location for a company, including shipping address and related details. This helps manage multiple locations under a single company.
 
-##### Select Credentials and Action Event
+##### Select Credentials and Action Events
 
 <img src="/img/credentials/shopify/C-CCMPNYLCTON21.jpg" alt="Shopify Create Company Location action configuration" width="700"  />
 
@@ -2245,9 +2283,11 @@ First Name | First name for the address contact. (e.g., "Dennie") |
 | Phone | Contact number. (e.g., "9087676767") |
 | Tax Exempt | Indicates if the location is tax exempt (**True/False**). (e.g., "True") |
 
-> **Note:** Ensure the Company ID is valid before creating a location. Country Code is required for defining the shipping address.
+:::note
+Ensure the Company ID is valid before creating a location. Country Code is required for defining the shipping address.
+:::
 
-Click on **Continue**, then **Run** node
+Click on **Continue**, then click **Run** node.
 
 -----------------
 
@@ -2305,7 +2345,7 @@ Click on **Continue**, then **Run** node
 
 Create Company Contact action is used to create a contact person associated with a company. It helps manage company-level contacts with their communication and role details.
 
-##### Select Credentials and Action Event
+##### Select Credentials and Action Events
 
 <img src="/img/credentials/shopify/C-CCMPNYCNTCT17.jpg" alt="Shopify Create Company Contact action configuration" width="700"  />
 
@@ -2313,7 +2353,7 @@ Click on **Continue** button
 
 --------------------
 
-##### Configuration Field
+##### Configuration Fields
 
 | Field | Description |
 |------|-------------|
@@ -2326,9 +2366,11 @@ First Name | Contact person's first name. (e.g., "Deny") |
 | Title | Job title of the contact. (e.g., "Sales Manager") |
 | Locale | Language/region setting for the contact. (e.g., "en") |
 
-> **Note:** Ensure the Company ID is valid before creating the contact. Email is typically required to uniquely identify the contact.
+:::note
+Ensure the Company ID is valid before creating the contact. Email is typically required to uniquely identify the contact.
+:::
 
-Click on **Continue**, then **Run** node
+Click on **Continue**, then click **Run** node.
 
 ---------------------
 
@@ -2365,7 +2407,7 @@ Click on **Continue**, then **Run** node
 
 Get Company Contact by ID action retrieves details of a specific company contact using its unique identifier.
 
-##### Select Credentials and Action Event
+##### Select Credentials and Action Events
 
 <img src="/img/credentials/shopify/C-GCMPNYCNTCTbyID24.jpg" alt="Shopify Get Company Contact by ID action configuration" width="700"  />
 
@@ -2379,9 +2421,11 @@ Click on **Continue** button
 |------|-------------|
 | Company Contact ID | Enter the unique identifier of the company contact. (e.g., "gid://shopify/CompanyContact/1304559788") |
 
-> **Note:** If no contact is found for the provided ID, the response will be empty or null.
+:::note
+If no contact is found for the provided ID, the response will be empty or null.
+:::
 
-Click on **Continue**, then **Run** node
+Click on **Continue**, then click **Run** node.
 
 -----------------
 
@@ -2440,9 +2484,11 @@ Click on **Continue** button
 |------|-------------|
 | Company ID | Enter the unique identifier of the company. (e.g., "gid://shopify/Company/13819740332") |
 
-> **Note:** If no company is found for the provided ID, the response will be empty or null.
+:::note
+If no company is found for the provided ID, the response will be empty or null.
+:::
 
-Click on **Continue**, then **Run** node
+Click on **Continue**, then click **Run** node.
 
 -------------
 
@@ -2569,9 +2615,11 @@ Click on **Continue** button
 | Company ID | Enter the unique identifier of the company. (e.g., "gid://shopify/Company/13819740332") |
 | Limit | Define the maximum number of location records to retrieve. (e.g., "10") |
 
-> **Note:** If no locations are found for the provided Company ID, the response will be empty or null. The result is limited based on the specified value.
+:::note
+If no locations are found for the provided Company ID, the response will be empty or null. The result is limited based on the specified value.
+:::
 
-Click on **Continue**, then **Run** node
+Click on **Continue**, then click **Run** node.
 
 --------------
 
@@ -2624,9 +2672,11 @@ Click on **Continue** button
 |------|-------------|
 | Company ID | Enter the unique identifier of the company. (e.g., "gid://shopify/Company/13819674796") |
 
-> **Note:** If no payment terms are configured for the provided Company ID, the response may be empty or null.
+:::note
+If no payment terms are configured for the provided Company ID, the response may be empty or null.
+:::
 
-Click on **Continue**, then **Run** node
+Click on **Continue**, then click **Run** node.
 
 ------------------
 
@@ -2686,9 +2736,11 @@ Click on **Continue** button
 |------|-------------|
 | External ID | Enter the external identifier of the company. (e.g., "Nayasa-111") |
 
-> **Note:** If no company is found for the provided External ID, the response will be empty or null.
+:::note
+If no company is found for the provided External ID, the response will be empty or null.
+:::
 
-Click on **Continue**, then **Run** node
+Click on **Continue**, then click **Run** node.
 
 -----------------
 
@@ -2745,11 +2797,11 @@ Click on **Continue**, then **Run** node
 ```
 ------------------
 
-### Products Action
+### Product Actions
 
 #### Create Product
 
-Create Product action is used to create a new product record in the Shopify with basic product details.
+Create Product action is used to create a new product record in Shopify with basic product details.
 
 ##### Select Credentials and Action Events
 
@@ -2766,7 +2818,9 @@ Click on **Continue** button
 | Title | Enter the product title. (e.g., "OnePlus 13R") |
 | Description | Provide the product description. (e.g., "OnePlus13R Mobile") |
 
-> **Note:** Title is required to create the product. Additional details such as variants, pricing, and images can be added later.
+:::note
+Title is required to create the product. Additional details such as variants, pricing, and images can be added later.
+:::
 
 ##### Example Configuration
 
@@ -2855,7 +2909,9 @@ Click on **Continue** button
 Title | Enter the updated product title. (e.g., "OnePlus 13R - Updated") |
 | Description | Provide the updated product description. (e.g., "OnePlus13R Mobile - Updated Description") |
 
-> **Note:** Product ID is required to update a product. Any field left empty will remain unchanged in Shopify.
+:::note
+Product ID is required to update a product. Any field left empty will remain unchanged in Shopify.
+:::
 
 ##### Example Configuration
 
@@ -2933,7 +2989,9 @@ Click on **Continue** button
 | Product ID | Enter the Shopify product ID to publish. (e.g., "gid://shopify/Product/8536686002348") |
 | Publication ID | Enter the publication (sales channel) ID where the product should be published. (e.g., "gid://shopify/Publication/123613773996") |
 
-> **Note:** Product ID and Publication ID are required. If the product is already published in that channel, the action may return no changes.
+:::note
+Product ID and Publication ID are required. If the product is already published in that channel, the action may return no changes.
+:::
 
 ##### Example Configuration
 
@@ -2977,7 +3035,9 @@ Click on **Continue** button
 |------|-------------|
 | Product SKU | Enter the default variant SKU to fetch product details. (e.g., "ONEPLUS-R") |
 
-> **Note:** Default Variant SKU is required. If no product matches the SKU, the response may return an empty result.
+:::note
+Default Variant SKU is required. If no product matches the SKU, the response may return an empty result.
+:::
 
 ##### Example Configuration
 
@@ -3037,7 +3097,7 @@ Click on **Continue** button
 ]
 ```
 
-### Product Variants Action
+### Product Variants Actions
 
 #### Update Product Variants
 
@@ -3060,7 +3120,9 @@ Click on **Continue** button
 | SKU (Optional) | Enter the updated SKU value. (e.g., "ONEPLUS-R") |
 | Tracked (Optional) | Set inventory tracking to `TRUE` or `FALSE`. (e.g., `TRUE`) |
 
-> **Note:** Variant ID is required. Only the provided optional fields are updated; other values remain unchanged. In this example, `Tracked` is selected as `TRUE`.
+:::note
+Variant ID is required. Only the provided optional fields are updated; other values remain unchanged. In this example, `Tracked` is selected as `TRUE`.
+:::
 
 ##### Example Configuration
 
@@ -3095,7 +3157,7 @@ Click on **Continue** button
 ]
 ```
 
-### Inventory Action
+### Inventory Actions
 
 #### Activate Inventory Location
 
@@ -3118,7 +3180,9 @@ Click on **Continue** button
 Location ID | Enter the Shopify location ID to activate. (e.g., "gid://shopify/Location/71342817452") |
 | Activate | Set to `TRUE` to activate the inventory location. (e.g., `TRUE`) |
 
-> **Note:** All fields are required. In this example, `Activate` is set to `TRUE` to enable the inventory location.
+:::note
+All fields are required. In this example, `Activate` is set to `TRUE` to enable the inventory location.
+:::
 
 ##### Example Configuration
 
@@ -3179,7 +3243,9 @@ Inventory Item ID | Enter the Shopify inventory item ID. (e.g., "gid://shopify/I
 | Location ID | Enter the Shopify location ID where inventory will be updated. (e.g., "gid://shopify/Location/71342817452") |
 | Quantity | Enter the updated inventory quantity. (e.g., "250") |
 
-> **Note:** All fields are required. `Quantities` supports multiple items; in this example, one item is configured. `Ignore Compare Quantity` is set to `TRUE` and inventory is set to `250` at the specified location.
+:::note
+All fields are required. `Quantities` supports multiple items; in this example, one item is configured. `Ignore Compare Quantity` is set to `TRUE` and inventory is set to `250` at the specified location.
+:::
 
 ##### Example Configuration
 
@@ -3222,7 +3288,7 @@ Inventory Item ID | Enter the Shopify inventory item ID. (e.g., "gid://shopify/I
 ```
 ---------------
 
-### Locations Action
+### Locations Actions
 
 #### Get List of Locations
 
@@ -3242,7 +3308,9 @@ Click on **Continue** button
 |------|-------------|
 | Limit | Enter the maximum number of locations to retrieve. (e.g., "10") |
 
-> **Note:** `Limit` controls how many locations are returned in the response. In this example, up to 10 locations will be retrieved.
+:::note
+`Limit` controls how many locations are returned in the response. In this example, up to 10 locations will be retrieved.
+:::
 
 ##### Example Configuration
 
@@ -3322,7 +3390,9 @@ Click on **Continue** button
 | Adjustment Type | Select the adjustment type. (e.g., `PERCENTAGE_INCREASE`) |
 | Adjustment Value | Enter the adjustment value. (e.g., "10") |
 
-> **Note:** All fields are required. In this example, prices are increased by 10% using `PERCENTAGE_INCREASE`.
+:::note
+All fields are required. In this example, prices are increased by 10% using `PERCENTAGE_INCREASE`.
+:::
 
 ##### Example Configuration
 
@@ -3374,7 +3444,9 @@ Variant ID | Enter the Shopify variant ID. (e.g., "gid://shopify/ProductVariant/
 | Price Amount | Enter the fixed price amount. (e.g., "150") |
 | Price Currency Code | Enter the currency code for the fixed price. (e.g., "USD") |
 
-> **Note:** All fields are required. In this example, one fixed price item is added for the specified variant with amount `150` in `USD`.
+:::note
+All fields are required. In this example, one fixed price item is added for the specified variant with amount `150` in `USD`.
+:::
 
 ##### Example Configuration
 
@@ -3424,7 +3496,9 @@ Variant ID | Enter the product variant identifier. (e.g., "gid://shopify/Product
 | Variant IDs to Delete
 Variant ID | Enter the variant identifier to remove fixed pricing from the price list. (e.g., "gid://shopify/ProductVariant/46181637980332") |
 
-> **Note:** `Price List ID` and `Prices to Add` item fields are required for adding/updating prices. `Variant IDs to Delete` is optional and can be used in the same request.
+:::note
+`Price List ID` and `Prices to Add` item fields are required for adding/updating prices. `Variant IDs to Delete` is optional and can be used in the same request.
+:::
 
 ##### Example Configuration
 
@@ -3472,7 +3546,9 @@ Click on **Continue** button
 | Variant IDs - Item
 Variant ID | Enter the Shopify variant ID. (e.g., "gid://shopify/ProductVariant/46181637980332") |
 
-> **Note:** `Price List ID` and at least one `Variant ID` are required.
+:::note
+`Price List ID` and at least one `Variant ID` are required.
+:::
 
 ##### Example Configuration
 
@@ -3519,7 +3595,9 @@ Click on **Continue** button
 |------|-------------|
 | Market Name | Enter the market name. (e.g., "USA") |
 
-> **Note:** `Market Name` is required to create a market.
+:::note
+`Market Name` is required to create a market.
+:::
 
 ##### Example Configuration
 
@@ -3575,7 +3653,9 @@ Click on **Continue** button
 |------|-------------|
 | Limit | Enter the maximum number of market records to retrieve. (e.g., "10") |
 
-> **Note:** `Limit` controls how many market records are returned.
+:::note
+`Limit` controls how many market records are returned.
+:::
 
 ##### Example Configuration
 
@@ -3643,7 +3723,7 @@ Click on **Continue** button
 ```
 --------------
 
-### Discount Action
+### Discount Actions
 
 #### Create Discount Code
 
@@ -3671,7 +3751,9 @@ All Items | Set to `True` to apply discount to all items. (e.g., `True`) |
 | Discount Value (Optional) | Configure the discount value settings.
 Percentage | Enter the discount percentage value. (e.g., "1") |
 
-> **Note:** `Title`, `Discount Code`, and `Starts At` are required. `Customer Selection` and `Discount Items` both default to `All` when set to `True`.
+:::note
+`Title`, `Discount Code`, and `Starts At` are required. `Customer Selection` and `Discount Items` both default to `All` when set to `True`.
+:::
 
 ##### Example Configuration
 
@@ -3722,7 +3804,7 @@ Percentage | Enter the discount percentage value. (e.g., "1") |
 ```
 --------------
 
-### Orders Action
+### Order Actions
 
 #### Get Order by Order ID
 
@@ -3742,7 +3824,9 @@ Click on **Continue** button
 |------|-------------|
 | Order ID | Enter the Shopify order ID. (e.g., "gid://shopify/Order/1234567890") |
 
-> **Note:** `Order ID` is required.
+:::note
+`Order ID` is required.
+:::
 
 ##### Example Configuration
 
@@ -3968,7 +4052,9 @@ Click on **Continue** button
 |------|-------------|
 | Order ID | Enter the Shopify order ID. (e.g., "gid://shopify/Order/7240844705964") |
 
-> **Note:** `Order ID` is required.
+:::note
+`Order ID` is required.
+:::
 
 ##### Example Configuration
 
@@ -4056,7 +4142,9 @@ Click on **Continue** button
 Description | Enter the description for item (e.g., "Billing Address region is Risk") |
 | Sentiment | Enter the sentiment for item (e.g., "Positive (lowers risk)") |
 
-> **Note:** `Order ID`, `Risk Level`, `Risk Facts`, `Risk Fact`, `Description`, and `Sentiment` are required.
+:::note
+`Order ID`, `Risk Level`, `Risk Facts`, `Risk Fact`, `Description`, and `Sentiment` are required.
+:::
 
 ##### Example Configuration
 
@@ -4121,7 +4209,9 @@ Click on **Continue** button
 |------|-------------|
 | Order ID | Enter the Shopify order ID. (e.g., "gid://shopify/Order/7240844705964") |
 
-> **Note:** `Order ID` is required.
+:::note
+`Order ID` is required.
+:::
 
 ##### Example Configuration
 
@@ -4231,7 +4321,7 @@ Click on **Continue** button
 
 --------------------
 
-#### Configuration
+#### Configuration Fields
 
 | Field | Description |
 |------|-------------|
@@ -4250,9 +4340,11 @@ First Name | Recipient first name. (e.g., "Antony") |
 | ZIP / Postal Code | Postal code. (e.g., "500039") |
 | Phone | Contact phone number. (e.g., "+919878094511") |
 
-> **Note:** Only the fields provided will be updated. Ensure the correct Order ID is used to avoid modifying the wrong order.
+:::note
+Only the fields provided will be updated. Ensure the correct Order ID is used to avoid modifying the wrong order.
+:::
 
-Click on **Continue**, then **Run** node
+Click on **Continue**, then click **Run** node.
 
 ---------------------
 
@@ -4313,7 +4405,7 @@ Click on **Continue** button.
 
 ---------------------------
 
-##### Configuration
+##### Configuration Fields
 
 | Field | Description |
 |------|-------------|
@@ -4323,9 +4415,11 @@ Click on **Continue** button.
 | Payment Schedules | Configure one or more payment schedules for the payment terms. |
 | Issued At | Specify the date and time when the payment terms are issued. (e.g., `22/05/2026 10:46`) |
 
-> **Note:** Reference ID, Payment Terms Attributes, Payment Terms Template ID, and Payment Schedules are mandatory fields.
+:::note
+Reference ID, Payment Terms Attributes, Payment Terms Template ID, and Payment Schedules are required fields.
+:::
 
-Click on **Continue**, then **Run** node.
+Click on **Continue**, then click **Run** node..
 
 -------------------------
 
@@ -4365,7 +4459,7 @@ Click on **Continue** button.
 
 ---------------------------
 
-##### Configuration
+##### Configuration Fields
 
 | Field | Description |
 |------|-------------|
@@ -4375,9 +4469,11 @@ Click on **Continue** button.
 | Payment Schedules | Configure one or more updated payment schedules for the payment terms. |
 | Issued At | Specify the updated issued date and time for the payment terms. (e.g., `22/05/2026 10:57`) |
 
-> **Note:** Payment Terms ID and Payment Terms Attributes are mandatory fields. Other fields are optional and can be updated as needed.
+:::note
+Payment Terms ID and Payment Terms Attributes are required fields. Other fields are optional and can be updated as needed.
+:::
 
-Click on **Continue**, then **Run** node.
+Click on **Continue**, then click **Run** node..
 
 -------------------------
 
@@ -4417,7 +4513,7 @@ Click on **Continue**, then **Run** node.
 ---------------------------------------
 
 
-### Fulfillment Action
+### Fulfillment Actions
 
 #### Create Order Fulfillment
 
@@ -4443,7 +4539,9 @@ Line Item ID * | Enter the fulfillment order line item ID. (e.g., "gid://shopify
 | Tracking Info (Optional)
 Tracking Number (Optional) | Enter the tracking number. (e.g., "TRACK-123") |
 
-> **Note:** `Fulfillment Input`, `Line Items by Fulfillment Order`, `Fulfillment Order ID`, `Line Item ID`, and `Quantity` are required.
+:::note
+`Fulfillment Input`, `Line Items by Fulfillment Order`, `Fulfillment Order ID`, `Line Item ID`, and `Quantity` are required.
+:::
 
 ##### Example Configuration
 
@@ -4524,7 +4622,9 @@ Click on **Continue** button
 |------|-------------|
 | Order ID | Enter the Shopify order ID. (e.g., "gid://shopify/Order/7240844705964") |
 
-> **Note:** `Order ID` is required.
+:::note
+`Order ID` is required.
+:::
 
 ##### Example Configuration
 
@@ -4614,7 +4714,7 @@ Click on **Continue** button
 ```
 --------------
 
-### Payment Terms Templates Action
+### Payment Terms Templates Actions
 
 #### Get Payment Term Templates by Type
 
@@ -4634,7 +4734,9 @@ Click on **Continue** button
 |------|-------------|
 | Payment Term Type | Select the payment term template type. Supported values: `Receipt`, `Net`, `Fixed`, `Fulfillment`, `deferred`, `Unknown ` (e.g., "Net"). |
 
-> **Note:** `Payment Term Type` is required.
+:::note
+`Payment Term Type` is required.
+:::
 
 ##### Example Configuration
 
@@ -4698,7 +4800,7 @@ Click on **Continue** button
 ```
 --------------
 
-### Refund Action
+### Refund Actions
 
 #### Create Refund
 
@@ -4722,7 +4824,9 @@ Click on **Continue** button
 | Line Item ID * | Enter the line item ID to refund. (e.g., "gid://shopify/LineItem/17065684533420") |
 | Quantity * | Enter the quantity to refund. (e.g., "1") |
 
-> **Note:** `Refund Input` and `Order ID` are required. For line item refunds, `Line Item ID` and `Quantity` are required.
+:::note
+`Refund Input` and `Order ID` are required. For line item refunds, `Line Item ID` and `Quantity` are required.
+:::
 
 ##### Example Configuration
 
@@ -4765,7 +4869,7 @@ Click on **Continue** button
 ```
 --------------
 
-### Price Lists Action
+### Price Lists Actions
 
 #### Get Price List by Catalog ID
 
@@ -4785,7 +4889,9 @@ Click on **Continue** button
 |------|-------------|
 | Catalog ID | Enter the Shopify catalog ID. (e.g., "gid://shopify/CompanyLocationCatalog/64039649452") |
 
-> **Note:** `Catalog ID` is required.
+:::note
+`Catalog ID` is required.
+:::
 
 ##### Example Configuration
 
@@ -4831,7 +4937,7 @@ Click on **Continue** button
 ```
 --------------
 
-### Catalog Action
+### Catalog Actions
 
 #### Create Catalog
 
@@ -4855,7 +4961,9 @@ Click on **Continue** button
 | Company Location IDs (Optional)Item
 Company Location ID | Enter the company location ID. (e.g., "gid://shopify/CompanyLocation/13888618668") |
 
-> **Note:** `Title`, `Status`, and `Context` are required.
+:::note
+`Title`, `Status`, and `Context` are required.
+:::
 
 ##### Example Configuration
 
@@ -4901,7 +5009,9 @@ Click on **Continue** button
 | Company Location IDs (Optional) Item.
 Company Location ID | Enter the company location ID. (e.g., "gid://shopify/CompanyLocation/13888618668") |
 
-> **Note:** `Catalog ID` is required.
+:::note
+`Catalog ID` is required.
+:::
 
 ##### Example Configuration
  1. Remove
@@ -4930,9 +5040,9 @@ Company Location ID | Enter the company location ID. (e.g., "gid://shopify/Compa
 ```
 --------------
 
-### Metafields Action
+### Metafields Actions
 
-#### Add and Update MetaFields
+#### Add and Update Metafields
 
 Add and Update Metafields action is used to create or update metafields for a Shopify resource such as a product, order, customer, or collection. Metafields help store custom data against records.
 
@@ -4954,9 +5064,11 @@ Click on **Continue** button.
 | Value | Enter the metafield value. (e.g., "png") |
 | Type | Specify the metafield data type. (e.g., "Single Line Text") |
 
-> **Note:** If the namespace and key already exist for the given object, the value will be updated. Otherwise, a new metafield will be created.
+:::note
+If the namespace and key already exist for the given object, the value will be updated. Otherwise, a new metafield will be created.
+:::
 
-Click on **Continue**, then **Run** node
+Click on **Continue**, then click **Run** node.
 
 ------------
 
@@ -4989,7 +5101,5 @@ Click on **Continue**, then **Run** node
 </Tabs>
 
 ## Support
-
-Need help? Contact our support team at
-[hello@appse.ai](mailto:hello@appse.ai)
+If you are unsure about any field or experience connection issues, reach out to our support team at [hello@appse.ai](mailto:hello@appse.ai)
 
