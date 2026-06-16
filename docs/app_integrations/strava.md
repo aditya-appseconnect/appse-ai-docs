@@ -10,7 +10,7 @@ Strava is a leading fitness tracking platform used by athletes and teams to reco
 
 ## Set Up Credential
 
-:::info
+:::note
 
 Before you create a credential for Strava using appse ai, ensure you have an active Strava account and have registered an API application in the Strava Developer Portal to obtain your OAuth 2.0 credentials.
 
@@ -33,8 +33,6 @@ You'll be asked to fill in the following details:
 Click **Select a Credential** and choose **Strava** from the application list.
 
 <img src="/img/credentials/strava/click-select-credential-strava.png" alt="appse ai Strava Select Credential" width="700"/>
-
-<br/>
 
 This opens the Strava credential form. Add your **Connection Name**.
 
@@ -63,9 +61,7 @@ Return to the appse ai credential form. Fill in all the required fields — **Cl
 
 <img src="/img/credentials/strava/paste-credentials-strava.png" alt="appse ai Strava Save Credential" width="700"/>
 
-<br/>
-
-:::warning
+:::caution
 
 Keep your credentials secure. Do not share your Client Secret publicly. If you believe your credentials have been compromised, revoke access from the Strava Developer Portal immediately and generate new credentials.
 
@@ -95,4 +91,4 @@ Here is a list of the available actions for Strava:
 
 ## Support
 
-Need help? Contact our support team at [hello@appse.ai](mailto:hello@appse.ai)
+Need help? Contact our support team at [support@appse.ai](mailto:support@appse.ai)
