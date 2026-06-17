@@ -196,4 +196,4 @@ Apart from the Address ID, users can provide any other fields they wish to updat
 
 ## Need Help?
 
-If you’re unsure about any field or face connection issues, reach out to our support team at [hello@appse.ai](mailto:hello@appse.ai)
+If you’re unsure about any field or face connection issues, reach out to our support team at [hello@appse.ai](mailto:support@appse.ai)
