@@ -179,30 +179,35 @@ Webhooks allow Meta to send real-time events (incoming messages, status updates)
 
 #### Step-by-Step Guide
 
-**1. Open Webhook Configuration**
+**1. Get Your Webhook URL from appse ai**
 
-In the [Meta App Dashboard](https://developers.facebook.com/apps/), go to **WhatsApp → Basic setup → Step 2. Production setup → Configure Webhooks**.
+In your appse ai workflow, add an **On webhook** trigger. Under **Verification**, select **WhatsApp Webhook (Meta Cloud API)** and choose your WhatsApp credential under **Verification credential**. Copy the **Production URL** shown in the **Preview URLs** section — you'll paste this into Meta in the next step.
 
-<img src="/img/credentials/whatsapp/whatsapp-webhook-config-appseai.png" alt="appse ai Webhook Configuration" width="700"/>
-
-<img src="/img/credentials/whatsapp/whatsapp-webhook-config.png" alt="appse ai WhatsApp Webhook Configuration" width="700"/>
+<img src="/img/credentials/whatsapp/whatsapp-webhook-config-appseai.png" alt="appse ai WhatsApp On Webhook Trigger Configuration" width="700"/>
 <br/>
 
-**2. Enter Your Webhook URL**
+**2. Open Webhook Configuration in Meta**
 
-Paste your appse ai webhook endpoint URL into the **Callback URL** field and enter a **Verify token** of your choice.
+In the [Meta App Dashboard](https://developers.facebook.com/apps/), go to **WhatsApp → Basic setup → Step 2. Production setup**, then click **Configure Webhooks**.
+
+<img src="/img/credentials/whatsapp/whatsapp-webhook-config.png" alt="appse ai WhatsApp Meta Configure Webhooks" width="700"/>
+<br/>
+
+**3. Enter Your Webhook URL**
+
+Paste the Production URL copied from appse ai into the **Callback URL** field and enter a **Verify token** of your choice.
 
 <img src="/img/credentials/whatsapp/whatsapp-webhook-url.png" alt="appse ai WhatsApp Webhook URL" width="700"/>
 <br/>
 
-**3. Verify the Webhook**
+**4. Verify the Webhook**
 
 Click **Verify and Save**. Meta will send a verification request to your URL. A successful response confirms the connection.
 
 <img src="/img/credentials/whatsapp/whatsapp-webhook-verify.png" alt="appse ai WhatsApp Webhook Verify" width="700"/>
 <br/>
 
-**4. Subscribe to Webhook Events**
+**5. Subscribe to Webhook Events**
 
 Toggle **Subscribe webhooks** to **ON** and select the events your workflow needs (e.g. `messages`, `message_status`).
 
