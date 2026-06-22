@@ -13,9 +13,9 @@ WhatsApp is the world's most widely used messaging platform, with over 2 billion
 
 ---
 
-## Set Up Credential
+## Setup Credential
 
-:::info
+:::note
 
 To create credentials for WhatsApp, you must have a Meta Developer account and a WhatsApp Business Account set up in the [Meta App Dashboard](https://developers.facebook.com/apps/).
 
@@ -51,14 +51,12 @@ Go to [Meta App Dashboard](https://developers.facebook.com/apps/) and select you
 In the left menu, click **WhatsApp** → under **Basic setup**, click **Step 1. Try it out**.
 
 <img src="/img/credentials/whatsapp/whatsapp-basic-setup-step1.png" alt="appse ai WhatsApp Basic Setup Step 1" width="700"/>
-<br/>
 
 **3. Find Your WhatsApp Business Account ID**
 
 Open the **Claim a WhatsApp test number** section. Find the label **WhatsApp Business Account ID** and copy the number shown.
 
 <img src="/img/credentials/whatsapp/whatsapp-test-waba-id1.png" alt="appse ai WhatsApp Test Business Account ID" width="700"/>
-<br/>
 
 **4. Find Your Phone Number ID**
 
@@ -70,7 +68,6 @@ Below the test phone number, find the label **Phone number ID** and copy the num
 :::
 
 <img src="/img/credentials/whatsapp/whatsapp-test-phone-number-id1.png" alt="appse ai WhatsApp Test Phone Number ID" width="700"/>
-<br/>
 
 **5. Generate a Temporary Access Token**
 
@@ -81,7 +78,6 @@ This token **expires**. For live workflows, generate a permanent token using the
 :::
 
 <img src="/img/credentials/whatsapp/whatsapp-test-generate-token1.png" alt="appse ai WhatsApp Test Generate Token" width="700"/>
-<br/>
 
 </TabItem>
 
@@ -96,14 +92,12 @@ Use this after you register your own business phone number. Allows messaging any
 In the [Meta App Dashboard](https://developers.facebook.com/apps/), select your app → left menu → **WhatsApp** → **Basic setup** → **Step 2. Production setup**.
 
 <img src="/img/credentials/whatsapp/whatsapp-production-setup.png" alt="appse ai WhatsApp Production Setup" width="700"/>
-<br/>
 
 **2. Find Your Production WhatsApp Business Account ID**
 
 Open the **Register your WhatsApp phone number** section. Under your account name, find **WhatsApp Business Account ID** and copy the number shown.
 
 <img src="/img/credentials/whatsapp/whatsapp-production-waba-id.png" alt="appse ai WhatsApp Production Business Account ID" width="700"/>
-<br/>
 
 **3. Register Your Phone Number and Find Phone Number ID**
 
@@ -114,7 +108,6 @@ If no number is registered yet: click **Add new number** → complete SMS/voice 
 :::
 
 <img src="/img/credentials/whatsapp/whatsapp-production-phone-number-id.png" alt="appse ai WhatsApp Production Phone Number ID" width="700"/>
-<br/>
 
 **4. Generate a Permanent Access Token**
 
@@ -127,9 +120,8 @@ If no number is registered yet: click **Add new number** → complete SMS/voice 
 7. Click **Generate token** → copy immediately (shown once).
 
 <img src="/img/credentials/whatsapp/whatsapp-production-system-user-token.png" alt="appse ai WhatsApp Production System User Token" width="700"/>
-<br/>
 
-:::warning
+:::caution
 
 Copy and store the token immediately. Meta does not display it again after you leave the page.
 
@@ -184,35 +176,30 @@ Webhooks allow Meta to send real-time events (incoming messages, status updates)
 In your appse ai workflow, add an **On webhook** trigger. Under **Verification**, select **WhatsApp Webhook (Meta Cloud API)** and choose your WhatsApp credential under **Verification credential**. Copy the **Production URL** shown in the **Preview URLs** section — you'll paste this into Meta in the next step.
 
 <img src="/img/credentials/whatsapp/whatsapp-webhook-config-appseai.png" alt="appse ai WhatsApp On Webhook Trigger Configuration" width="700"/>
-<br/>
 
 **2. Open Webhook Configuration in Meta**
 
 In the [Meta App Dashboard](https://developers.facebook.com/apps/), go to **WhatsApp → Basic setup → Step 2. Production setup**, then click **Configure Webhooks**.
 
 <img src="/img/credentials/whatsapp/whatsapp-webhook-config.png" alt="appse ai WhatsApp Meta Configure Webhooks" width="700"/>
-<br/>
 
 **3. Enter Your Webhook URL**
 
 Paste the Production URL copied from appse ai into the **Callback URL** field and enter a **Verify token** of your choice.
 
 <img src="/img/credentials/whatsapp/whatsapp-webhook-url.png" alt="appse ai WhatsApp Webhook URL" width="700"/>
-<br/>
 
 **4. Verify the Webhook**
 
 Click **Verify and Save**. Meta will send a verification request to your URL. A successful response confirms the connection.
 
 <img src="/img/credentials/whatsapp/whatsapp-webhook-verify.png" alt="appse ai WhatsApp Webhook Verify" width="700"/>
-<br/>
 
 **5. Subscribe to Webhook Events**
 
 Toggle **Subscribe webhooks** to **ON** and select the events your workflow needs (e.g. `messages`, `message_status`).
 
 <img src="/img/credentials/whatsapp/whatsapp-webhook-subscribe.png" alt="appse ai WhatsApp Webhook Subscribe" width="700"/>
-<br/>
 
 ---
 
@@ -223,12 +210,10 @@ Once you have your IDs and token ready from the steps above, follow these steps 
 1. Navigate to [workflow.appse.ai](https://workflow.appse.ai/) → **Credentials** → **Add Credentials** → **WhatsApp**.
 
 <img src="/img/credentials/whatsapp/whatsapp-appseai-add-credential.png" alt="appse ai WhatsApp Add Credential" width="700"/>
-<br/>
 
 2. Fill in the **Connection Name**, **WhatsApp Business Account ID**, **Phone Number ID**, and **Access Token**.
 
 <img src="/img/credentials/whatsapp/whatsapp-appseai-credential-form.png" alt="appse ai WhatsApp Credential Form" width="700"/>
-<br/>
 
 3. Click **Save / Validate**. A success indicator confirms the credential is active.
 <img src="/img/credentials/whatsapp/whatsapp-appseai-credential-form-save.png" alt="appse ai WhatsApp Credential Save" width="700"/>
