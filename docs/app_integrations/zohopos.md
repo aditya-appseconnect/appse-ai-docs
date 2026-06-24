@@ -8,9 +8,9 @@ Zoho POS is a cloud-based Point of Sale solution designed to manage in-store and
 
 ---
 
-## Set Up Credential
+## Setup Credential
 
-:::info
+:::note
 
 Before you create a credential for Zoho POS using appse ai, ensure you have an active Zoho POS account and have registered an application in the Zoho Developer Console to obtain your OAuth 2.0 credentials.
 
@@ -36,7 +36,6 @@ Click **Select a Credential** and choose **Zoho POS** from the application list.
 
 <img src="/img/credentials/zohopos/click-select-credential-zohoPos.png" alt="appse ai Zoho POS Select Credential" width="700"/>
 
-<br/>
 
 This opens the Zoho POS credential form. Add your **Connection Name**.
 
@@ -72,9 +71,8 @@ Return to the appse ai credential form. Fill in all the required fields — **Cl
 
 <img src="/img/credentials/zohopos/paste-secret-zohopos.png" alt="appse ai Zoho POS Save Credential" width="700"/>
 
-<br/>
 
-:::warning
+:::caution
 
 Keep your credentials secure. Do not share your Client Secret publicly. If you believe your credentials have been compromised, revoke access from the Zoho Developer Console immediately and generate new tokens.
 
@@ -200,8 +198,38 @@ Here is a list of the available actions for Zoho POS:
 | ------ | ----------- |
 | **Search Records** | A generic search action that enables you to query and retrieve records across multiple modules within Zoho POS, including Contacts, Items, Invoices, Sales Orders, Purchase Orders, and more. Requires the selection of a **Module** and a **Search Criteria** to filter and return the relevant records. This action serves as a unified alternative to individual listing actions across all supported modules. |
 
+## Triggers
+
+Triggers let your appse ai workflows start automatically in response to events in Zoho POS. Here is a list of the available triggers for Zoho POS:
+
+#### New Record Triggers
+
+| Trigger | Description |
+| ------- | ----------- |
+| **New Bill Created** | Triggers when a new bill is created in Zoho POS. |
+| **New Credit Note Created** | Triggers when a new credit note is created in Zoho POS. |
+| **New Customer Created** | Triggers when a new customer (contact) is created in Zoho POS. |
+| **New Item Adjustment Created** | Triggers when a new inventory item adjustment is created in Zoho POS. |
+| **New Item Created** | Triggers when a new item (product or service) is created in Zoho POS. |
+| **New Purchase Order Created** | Triggers when a new purchase order is created in Zoho POS. |
+| **New Sales Order Created** | Triggers when a new sales order is created in Zoho POS. |
+
+#### Record Update Triggers
+
+| Trigger | Description |
+| ------- | ----------- |
+| **On Bill Update** | Triggers when an existing bill is updated in Zoho POS. |
+| **On Credit Note Update** | Triggers when an existing credit note is updated in Zoho POS. |
+| **On Customer Update** | Triggers when an existing customer (contact) is updated in Zoho POS. |
+| **On Item Adjustment Update** | Triggers when an existing inventory item adjustment is updated in Zoho POS. |
+| **On Item Update** | Triggers when an existing item (product or service) is updated in Zoho POS. |
+| **On Purchase Order Update** | Triggers when an existing purchase order is updated in Zoho POS. |
+| **On Sales Order Update** | Triggers when an existing sales order is updated in Zoho POS. |
+
+
+
 
 
 ## Support
 
-Need help? Contact our support team at [hello@appse.ai](mailto:hello@appse.ai)
+Need help? Contact our support team at [support@appse.ai](mailto:support@appse.ai)
